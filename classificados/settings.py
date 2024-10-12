@@ -85,7 +85,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'classificados',
-        'USER': 'classificados_user',
+        'USER': 'classificados',
         'PASSWORD': 'classificados',
         'HOST': 'localhost',
         'PORT': '5432',
