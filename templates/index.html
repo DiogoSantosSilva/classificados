@@ -1,7 +1,10 @@
 {% extends 'base.html' %} {% block content %}
-<ul>
+
+<button class="btn btn-md btn-info">Addicionar job</button>
+
+<ul class="list-group mt-4">
   {% for job in jobs %}
-  <li>{{ job.title }}</li>
+  <li class="list-group-item">{{ job.title }}</li>
   {% endfor %}
 </ul>
 
