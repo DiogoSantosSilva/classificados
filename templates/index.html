@@ -1,7 +1,5 @@
 {% extends 'base.html' %} {% block content %}
-
-<button class="btn btn-md btn-info">Addicionar job</button>
-
+<a href="{% url 'create_edit_job' %}" class="btn btn-md btn-info">Adicionar job</a>
 <ul class="list-group mt-4">
   {% for job in jobs %}
   <li class="list-group-item">{{ job.title }}</li>
